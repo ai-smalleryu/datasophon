@@ -27,10 +27,10 @@
     <artifactId>datasophon-common</artifactId>
 
     <properties>
-        <hadoop.version>3.3.5</hadoop.version>
+        <hadoop.version>3.4.0</hadoop.version>
 
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
     <dependencies>
         <dependency>

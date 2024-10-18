@@ -52,7 +52,7 @@ public class FreemarkerTest {
 
         ServiceConfig serviceConfig = new ServiceConfig();
         serviceConfig.setName("worker_1");
-        serviceConfig.setValue("yc1:8585");
+        serviceConfig.setValue("yc1:18585");
         serviceConfig.setRequired(true);
         workerServiceConfigs.add(serviceConfig);
 
@@ -102,7 +102,7 @@ public class FreemarkerTest {
     public void generateFairSchdulerXml() throws IOException, TemplateException {
         Generators generators = new Generators();
         generators.setFilename("fair-scheduler.xml");
-        generators.setOutputDirectory("D:\\360downloads\\test");
+        generators.setOutputDirectory("D:\\IdeaProjects\\githubfork\\datasophon\\datasophon-worker\\src\\test\\com\\datasophon\\worker\\test");
         generators.setConfigFormat("custom");
         generators.setTemplateName("fair-scheduler.ftl");
         ArrayList<JSONObject> queueList = new ArrayList<>();

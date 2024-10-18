@@ -21,7 +21,7 @@
       "cardinality": "1+",
       "sortNum": 1,
       "logFile": "${hadoopLogDir}/hadoop-hdfs-journalnode-${host}.log",
-      "jmxPort": 27003,
+      "jmxPort": 27007,
       "startRunner": {
         "timeout": "60",
         "program": "control_hadoop.sh",
@@ -145,7 +145,7 @@
       "cardinality": "1+",
       "sortNum": 3,
       "logFile": "${hadoopLogDir}/hadoop-hdfs-zkfc-${host}.log",
-      "jmxPort": 27004,
+      "jmxPort": 27006,
       "startRunner": {
         "timeout": "60",
         "program": "control_hadoop.sh",

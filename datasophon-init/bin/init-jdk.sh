@@ -26,12 +26,12 @@ echo "PACKAGES_PATH: ${PACKAGES_PATH}"
 JDK_FOLDER_PATH=/usr/java
 source /etc/profile
 mkdir -p /usr/java
-JDK_PATH_NAME="jdk1.8.0_333"
-JDK_VERSION="1.8"
+JDK_PATH_NAME="jdk-17.0.11"
+JDK_VERSION="17"
 BASH_PROFILE_PATH="/root/.bash_profile"
 BASHRC_PATH="/root/.bashrc"
 ETC_PROFILE_PATH="/etc/profile"
-JDK_TAR_NAME="jdk-8u333-linux-x64.tar.gz"
+JDK_TAR_NAME="jdk-17.0.11_linux-x64_bin.tar.gz"
 
 jdkAvailable=$(java -version 2>&1 | awk 'NR==1{gsub(/"/,"");print $3}')
 result=$(echo $jdkAvailable | grep $JDK_VERSION)

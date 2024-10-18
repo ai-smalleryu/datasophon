@@ -185,7 +185,7 @@ public class PrometheusActor extends UntypedActor {
                 for (ClusterHostDO clusterHostDO : hostList) {
                     ServiceConfig serviceConfig = new ServiceConfig();
                     serviceConfig.setName("worker_" + clusterHostDO.getHostname());
-                    serviceConfig.setValue(clusterHostDO.getHostname() + ":8585");
+                    serviceConfig.setValue(clusterHostDO.getHostname() + ":18585");
                     serviceConfig.setRequired(true);
                     workerServiceConfigs.add(serviceConfig);
 
